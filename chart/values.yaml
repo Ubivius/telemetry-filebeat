@@ -13,8 +13,8 @@ logstashPipeline:
 
 resources:
   requests:
-    cpu: 25m # default 100m
-    memory: 1000Mi # default 1536Mi
+    cpu: 50m # default 100m
+    memory: 500Mi # default 1536Mi
   limits:
-    cpu: 1000m
-    memory: 1536Mi
+    cpu: 100m # default 1000Mi
+    memory: 500Mi # default 1536Mi
